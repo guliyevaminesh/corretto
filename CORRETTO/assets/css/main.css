@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#CoffeeMasters {
+  width: 100%;
+  background-image: url(/assets/img/home-1-slider-image-3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#CoffeeMasters header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  z-index: 3;
+}
+#CoffeeMasters header .navdropmenu {
+  background-color: black;
+}
+#CoffeeMasters header .navdropmenu :hover {
+  color: black;
+}
+#CoffeeMasters header nav {
+  width: 85%;
+  margin: auto;
+}
+#CoffeeMasters header nav .navbutton {
+  background-color: white;
+}
+#CoffeeMasters header nav .collapseDiv {
+  justify-content: flex-end;
+}
+#CoffeeMasters header nav .collapseDiv ul {
+  display: flex;
+  gap: 23px;
+}
+#CoffeeMasters header nav .collapseDiv ul li a {
+  color: white;
+}
+#CoffeeMasters .CoffeeMasterscontainer {
+  display: flex;
+  padding-bottom: 25px;
+}
+#CoffeeMasters .CoffeeMasterscontainer .row .CoffeeMastersabout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+#CoffeeMasters .CoffeeMasterscontainer .row .CoffeeMastersabout h1 {
+  color: white;
+  font-size: 75px;
+  font-weight: 300;
+}
+#CoffeeMasters .CoffeeMasterscontainer .row .CoffeeMastersabout span {
+  color: white;
+}
+#CoffeeMasters .CoffeeMasterscontainer .row .CoffeeMastersabout .shophere {
+  width: 220px;
+  border: none;
+  border: 1px solid white;
+  height: 60px;
+  background-color: transparent;
+  color: white;
+}
+#CoffeeMasters .CoffeeMasterscontainer .row .CoffeeMastersabout .shophere:hover {
+  background-color: burlywood;
+  border: none;
+}
+
+#OurDeliciousOffer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  margin-top: 25px;
+}
+#OurDeliciousOffer .OurDeliciousOffercontainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#OurDeliciousOffer .OurDeliciousOffercontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#OurDeliciousOffer .OurDeliciousOffercontainer .row .offertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#OurDeliciousOffer .OurDeliciousOffercontainer .row .offertext h1 {
+  color: #262626;
+  font-weight: 400;
+}
+
+#TheCoffeeHerald {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/img/new-new-h1-bacground-img-3.jpg);
+  background-size: cover;
+  margin: auto;
+  height: auto;
+  padding-top: 25px;
+}
+#TheCoffeeHerald .TheCoffeeHeraldcontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#TheCoffeeHerald .TheCoffeeHeraldcontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#TheCoffeeHerald .TheCoffeeHeraldcontainer .row .heraldtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#TheCoffeeHerald .TheCoffeeHeraldcontainer .row .heraldtext img {
+  width: 200px;
+  height: 30px;
+}
+#TheCoffeeHerald .TheCoffeeHeraldcontainer .row img {
+  width: 300px;
+  height: 250px;
+  cursor: pointer;
+}
+#TheCoffeeHerald .TheCoffeeHeraldcontainer .row .readmore {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+#TheCoffeeHerald .TheCoffeeHeraldcontainer .row .readmore:hover {
+  color: #9a826c;
+}
+
+#CoffeeCounts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  padding-top: 25px;
+  text-align: center;
+}
+#CoffeeCounts img {
+  width: 100%;
+  height: 400px;
+}
+#CoffeeCounts .CoffeeCountscontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#CoffeeCounts .CoffeeCountscontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#CoffeeCounts .CoffeeCountscontainer .row h1 {
+  font-size: 60px;
+  font-weight: 400;
+  color: #BE9C79;
+}
+
+#OnlineCoffeeShops {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/img/h1-bacground-img-1.jpg);
+  background-size: cover;
+  margin: auto;
+  height: auto;
+  text-align: center;
+}
+#OnlineCoffeeShops .OnlineCoffeeShopscontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#OnlineCoffeeShops .OnlineCoffeeShopscontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#OnlineCoffeeShops .OnlineCoffeeShopscontainer .row .onlinecoffeeshoptext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+#OnlineCoffeeShops .OnlineCoffeeShopscontainer .row .onlinecoffeeshoptext img {
+  width: 200px;
+  height: 30px;
+}
+#OnlineCoffeeShops .OnlineCoffeeShopscontainer .row img {
+  width: 200px;
+  height: 200px;
+}
+
+#OurSweetGallery {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: auto;
+}
+#OurSweetGallery .OurSweetGallerycontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#OurSweetGallery .OurSweetGallerycontainer .row {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#OurSweetGallery .OurSweetGallerycontainer .row .OurSweetGallerytext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+#OurSweetGallery .OurSweetGallerycontainer .row .OurSweetGallerytext img {
+  width: 200px;
+  height: 30px;
+}
+#OurSweetGallery .OurSweetGallerycontainer .row img {
+  width: 300px;
+  height: 290px;
+  margin-bottom: 10px;
+}
+
+#ContactUs {
+  background-image: url(/assets/img/p2-background-img-1.jpg);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+#ContactUs .ContactUscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#ContactUs .ContactUscontainer .row .contactbtn {
+  border: none;
+  background-color: #BE9C79;
+  color: white;
+  width: 170px;
+  height: 50px;
+}
+#ContactUs .ContactUscontainer .row .contactbtn:hover {
+  background-color: black;
+}
+
+#CorrettoStores {
+  width: 100%;
+  background-image: url(/assets/img/footer-top-img-1.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+}
+#CorrettoStores .correttostorescontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#CorrettoStores .correttostorescontainer .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  gap: 35px;
+  font-weight: 300;
+}
+#CorrettoStores .correttostorescontainer .row img {
+  width: 160px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+#CorrettoStores .correttostorescontainer .row p {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+#CorrettoStores .correttostorescontainer .row .correttoemail {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  display: flex;
+  width: 210px;
+  border: 1px solid white;
+  margin-top: 20px;
+  padding-left: 10px;
+  height: 60px;
+}
+#CorrettoStores .correttostorescontainer .row .correttoemail div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+#CorrettoStores .correttostorescontainer .row .correttoemail input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+#Interactive {
+  background-color: #121212;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  color: white;
+  text-align: center;
+}
+#Interactive .Interactivecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#Interactive .Interactivecontainer .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#Interactive .Interactivecontainer .row p {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+#Interactive .Interactivecontainer .row ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+#Interactive .Interactivecontainer .row i {
+  margin-right: 10px;
+}
